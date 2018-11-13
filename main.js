@@ -374,6 +374,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 anchor: new google.maps.Point(0, 0) // anchor
             };
 
+
             let marker = new google.maps.Marker({
                 position: latlng,
                 map: map,
@@ -385,6 +386,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 labelInBackground: false,
 
             });
+
+
             let content = `<div class="card-content">
 						    <img 
 						    class="card-save" src="images/icon__save.png" alt="like">
